@@ -7,7 +7,8 @@ def homepage(request):
 
 
 def test(request):
-    return render(request, "test.html")
+    
+    return render(request, "test.html", )
 
 
 def second(request):
